@@ -1,0 +1,1 @@
+Download train data set on [Kaggle](https://www.kaggle.com/c/sa-emotions/data) and put ```train_data.csv``` in this directory
