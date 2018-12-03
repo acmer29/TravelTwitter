@@ -24,6 +24,16 @@ The TravelTwitter application harvests data using Twitter search API, and provid
 
  For 5, I find an ideal multi-sentiment marked train data set on [Kaggle](https://www.kaggle.com/c/sa-emotions/data). There are 13 sentiments in the data set. I ignored those marked with "worry" and "empty", and combined some of them, this process can be found in function ```processTrainData```.
 
+### Get Started ###
+
+To start using this application, you need to have a Twitter developer account at first. Then you will need to create a Twitter application in order to acquire tokens and keys.
+
+After you get your tokens and keys, fill them in ```OAuth.json``` in this project in corresponding records.
+
+When launching Jupyter Notebook, make sure the port number equals to ```PORT``` parameter in ```Global Parameter``` cell.
+
+![port](Examples/port.png) 
+
 ### Features ###
 
 The application basically provides sentiment analysis of tweets harvested by three panels in bokeh application. Examples are shown as below:
