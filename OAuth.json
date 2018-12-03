@@ -1,0 +1,6 @@
+{
+    "consumer_key":"<Your consumer key here>",
+    "consumer_secret":"<Your consumer secret here>",
+    "token":"<Your token here>",
+    "token_secret":"<Your token secret here>"
+}
